@@ -1,0 +1,24 @@
+@media (min-width: 1200px) {
+
+    /* when the screen is wider than 1200px */
+    /* primary nav should be seen */
+    .primaryNav{
+        visibility: show;
+    }
+    /* secondary nav should be gone*/
+    .secondaryNav{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* when screen is smaller than 1200px */
+    /* primary nav should be gone */
+    .primaryNav{
+        visibility: hidden;
+    }
+    /* secondary nav should be seen*/
+    .secondaryNav{
+        visibility: show;
+    }
+}
